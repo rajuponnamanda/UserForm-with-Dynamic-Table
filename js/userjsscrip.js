@@ -9,7 +9,7 @@ function displayDetails() {
     var phoneNumber =document.getElementById("phoneNumber").value;
 
     if(!id || !name || !phoneNumber) {
-        alert("please fill all the boxes");
+        alert("please fill all the boxes (mandatory)");
         return;
     }
         console.log(id,name,phoneNumber)
