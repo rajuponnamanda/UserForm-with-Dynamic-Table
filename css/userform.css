@@ -1,0 +1,79 @@
+*{
+    margin:0;
+    padding: 0;
+}
+html {
+    /* background: color #747575;;
+    /* --radial gradient backround--- */
+    /* background:radial-gradient(rgdb(1749, 255, 255, 0.5), rgba(255, 255, 255, 0.5) rgba(0, 0, 0m, 0.5)); */ 
+    text-align:center;
+}
+#nameDiv {
+    margin-top: 70px;
+}
+.input {
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family:"comic Scan MS" ,cursive , sans-serif;
+    margin:20px;
+    justify-content: space-between;
+}
+#entry {
+    width:130px;
+    height: 30px;
+    font-size: 18px;
+    font-family:"georgia";
+    background-color: hsl(0, 100%, 26%);
+    box-shadow: 0 2px 2px 0 hsl(0, 25%, 3%);
+    margin: 25px;
+    color: rgb(255, 246, 246);
+    margin-top:20px;
+    border-radius: 3rem;
+    align-items: center;
+
+}
+table{
+    border-collapse:collapse;
+    width: 50%;
+    margin: 50px , auto ;
+    background-color:rgb(182, 177, 177);
+
+}
+table, th ,td{
+    border: 2px solid rgb(250, 246, 246);
+    padding: 5px;
+    box-shadow: #7e0707;
+
+}
+th{
+    font-size: 15px;
+    font-weight:600;
+    font-family:"comic Scan MS" ,cursive , sans-serif;
+    color:#ffffff;
+
+}
+/* td {
+    font-size:30px;
+    color:rgb(222, 152, 152);
+    font-weight: 400;
+    font-family:georgia;
+
+} */
+#display{
+   margin-right: 0%;
+   margin-left: 26%;
+   text-align-last:20%;
+
+}
+.detail-card{
+    text-align:left;
+    font-family: "arial";
+  
+   font-weight:400;margin-top: 10px;
+}
+.detail-box{
+    text-align:left;
+    font-family: "roboto";
+ 
+}
